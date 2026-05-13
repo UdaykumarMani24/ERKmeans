@@ -89,7 +89,7 @@ Table 2: Normalized Entropy Results (mean ± std over 30 runs)
 
 
 Table 3: Silhouette Score Results (mean ± std over 30 runs)
-<pre>
+
 | Dataset         | K-Means               | ER-K-Means            | Change       |
 |-----------------|-----------------------|-----------------------|--------------|
 | Iris            | 0.4592 ± 0.0010       | 0.4628 ± 0.0046       | +0.0036      |
@@ -101,7 +101,7 @@ Table 3: Silhouette Score Results (mean ± std over 30 runs)
 | syn_3c_90       | 0.8068 ± 0.0000       | 0.7927 ± 0.0221       | -0.0141      |
 | **syn_2c_95**   | **0.6943 ± 0.0420**   | **0.4486 ± 0.1087**   | **-0.2457**  |
 
-</pre>
+
 Key Finding (95% Imbalance Case)
 Normalized Entropy: 0.3102 → 0.8570 (176% improvement)
 
