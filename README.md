@@ -109,4 +109,4 @@ Silhouette Score: 0.6943 → 0.4486 (moderate trade-off)
 
 Effect Size (Cohen's d): 1.21 (large effect)
 
-</pre>
+
