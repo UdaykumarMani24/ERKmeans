@@ -122,6 +122,4 @@ Full results, including BKM and GMM-Dirichlet baselines and Adjusted Rand Index 
 
 **This is new since the original release and matters for how you use this method.** On data where the imbalance reflects genuine underlying structure rather than a synthetic construction, forcing balance can substantially degrade recovery of the true classes. On HTRU2 (real pulsar-detection data, 90.8%/9.2% split), pushing normalized entropy from 0.51 to 0.98 reduces the Adjusted Rand Index against the true pulsar/non-pulsar labels from 0.607 to 0.101. **We do not recommend ER-K-Means for applications like fraud or rare-event detection**, where the minority class's small size is the signal of interest, not an artifact to correct. See Section 6.2 of the paper for the full discussion.
 
-## Citing this work
 
-If you use this code, please cite the paper (see repository for the current preprint/DOI) and note the corrected version (v2.2+) if reproducing results.
